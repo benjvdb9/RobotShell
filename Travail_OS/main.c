@@ -40,9 +40,9 @@ int main()
                 {
                     execlp("/bin/go","go","", NULL);
                 }
-                else if (commande == "turn")
+                else if (commande == "gps")
                 {
-                    execlp("/bin/turn", "turn", "", NULL);
+                    execlp("/bin/gps", "gps", "", NULL);
                 }
             }
             else
