@@ -15,22 +15,22 @@ int main()
     printf("f : forward, b : backward, r : right, l : left");
     scanf("%s",sens);
 
-    if (sens == "f")
+    if (strcmp(sens, "f") == 0)
     {
         char* pinToHigh[2] = {pinForward[0], pinBackward[1]};
         char* pinToLow[2] = {pinBackward[0], pinBackward[1]};
     }
-    else if (sens == "b")
+    else if (strcmp(sens, "b") == 0)
     {
         char* pinToHigh[2] =  {pinBackward[0], pinBackward[1]};
         char* pinToLow[2] =  {pinForward[0], pinBackward[1]};
     }
-    else if (sens == "r")
+    else if (strcmp(sens, "r") == 0)
     {
         char* pinToHigh[2] =  {pinForward[0], pinBackward[1]};
         char* pinToLow[2] =  {pinBackward[0], pinForward[1]};
     }
-    else if (sens == "l")
+    else if (strcmp(sens, "l") == 0)
     {
         char* pinToHigh[2] =  {pinBackward[0], pinForward[1]};
         char* pinToLow[2] =  {pinForward[0], pinBackward[1]};
