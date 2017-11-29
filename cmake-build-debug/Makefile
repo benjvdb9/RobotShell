@@ -47,10 +47,10 @@ RM = "C:\Program Files\JetBrains\CLion 2017.2.3\bin\cmake\bin\cmake.exe" -E remo
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Amaury\CLionProjects\Travail_OS
+CMAKE_SOURCE_DIR = C:\Users\14027\Desktop\RobotShell
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Amaury\CLionProjects\Travail_OS\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\14027\Desktop\RobotShell\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Amaury\CLionProjects\Travail_OS\cmake-build-debug\CMakeFiles C:\Users\Amaury\CLionProjects\Travail_OS\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\14027\Desktop\RobotShell\cmake-build-debug\CMakeFiles C:\Users\14027\Desktop\RobotShell\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Amaury\CLionProjects\Travail_OS\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\14027\Desktop\RobotShell\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -149,6 +149,33 @@ go.c.s:
 	$(MAKE) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/go.c.s
 .PHONY : go.c.s
 
+goForward.obj: goForward.c.obj
+
+.PHONY : goForward.obj
+
+# target to build an object file
+goForward.c.obj:
+	$(MAKE) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/goForward.c.obj
+.PHONY : goForward.c.obj
+
+goForward.i: goForward.c.i
+
+.PHONY : goForward.i
+
+# target to preprocess a source file
+goForward.c.i:
+	$(MAKE) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/goForward.c.i
+.PHONY : goForward.c.i
+
+goForward.s: goForward.c.s
+
+.PHONY : goForward.s
+
+# target to generate assembly for a file
+goForward.c.s:
+	$(MAKE) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/goForward.c.s
+.PHONY : goForward.c.s
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -176,6 +203,33 @@ main.c.s:
 	$(MAKE) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/main.c.s
 .PHONY : main.c.s
 
+setPin.obj: setPin.c.obj
+
+.PHONY : setPin.obj
+
+# target to build an object file
+setPin.c.obj:
+	$(MAKE) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/setPin.c.obj
+.PHONY : setPin.c.obj
+
+setPin.i: setPin.c.i
+
+.PHONY : setPin.i
+
+# target to preprocess a source file
+setPin.c.i:
+	$(MAKE) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/setPin.c.i
+.PHONY : setPin.c.i
+
+setPin.s: setPin.c.s
+
+.PHONY : setPin.s
+
+# target to generate assembly for a file
+setPin.c.s:
+	$(MAKE) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/setPin.c.s
+.PHONY : setPin.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -188,9 +242,15 @@ help:
 	@echo ... go.obj
 	@echo ... go.i
 	@echo ... go.s
+	@echo ... goForward.obj
+	@echo ... goForward.i
+	@echo ... goForward.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... setPin.obj
+	@echo ... setPin.i
+	@echo ... setPin.s
 .PHONY : help
 
 
