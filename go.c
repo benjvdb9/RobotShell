@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <rpcndr.h>
+#include <stdbool.h>
 
-boolean writeInFile(char* file, char* content);
+
+bool writeInFile(char* file, char* content);
 
 int main()
 {
@@ -69,7 +70,7 @@ int main()
     return 0;
 }
 
-boolean writeInFile(char* file, char* content)
+bool writeInFile(char* file, char* content)
 {
     FILE* fichier = NULL;
     fichier = fopen(file, "w");
