@@ -13,5 +13,6 @@ int main()
     char buffer[Taille];
     ssize_t result;
     printf("test");
+    fd = open();
 }
 
