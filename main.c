@@ -48,6 +48,33 @@ int main()
                     }
 
                 }
+                else if (strcmp(commande,"goBackward") == 0)
+                {
+                    if (execv("./goBackward", NULL) == -1)
+                    {
+                        perror("execv");
+                        return 0;
+                    }
+                    
+                }
+                else if (strcmp(commande,"TurnLeft") == 0)
+                {
+                    if (execv("./TurnLeft", NULL) == -1)
+                    {
+                        perror("execv");
+                        return 0;
+                    }
+                    
+                }
+                else if (strcmp(commande,"TurnRight") == 0)
+                {
+                    if (execv("./TurnRight", NULL) == -1)
+                    {
+                        perror("execv");
+                        return 0;
+                    }
+                    
+                }
                 else if (strcmp(commande, "gps") == 0)
                 {
                     if (execv("./gps", NULL) == -1) {
