@@ -6,10 +6,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "C:/Users/14027/Desktop/RobotShell/goBackward.c" "C:/Users/14027/Desktop/RobotShell/cmake-build-debug/CMakeFiles/untitled2.dir/goBackward.c.obj"
   "C:/Users/14027/Desktop/RobotShell/goForward.c" "C:/Users/14027/Desktop/RobotShell/cmake-build-debug/CMakeFiles/untitled2.dir/goForward.c.obj"
-  "C:/Users/14027/Desktop/RobotShell/goRight.c" "C:/Users/14027/Desktop/RobotShell/cmake-build-debug/CMakeFiles/untitled2.dir/goRight.c.obj"
   "C:/Users/14027/Desktop/RobotShell/main.c" "C:/Users/14027/Desktop/RobotShell/cmake-build-debug/CMakeFiles/untitled2.dir/main.c.obj"
+  "C:/Users/14027/Desktop/RobotShell/savePin.c" "C:/Users/14027/Desktop/RobotShell/cmake-build-debug/CMakeFiles/untitled2.dir/savePin.c.obj"
   "C:/Users/14027/Desktop/RobotShell/setPin.c" "C:/Users/14027/Desktop/RobotShell/cmake-build-debug/CMakeFiles/untitled2.dir/setPin.c.obj"
   "C:/Users/14027/Desktop/RobotShell/turnLeft.c" "C:/Users/14027/Desktop/RobotShell/cmake-build-debug/CMakeFiles/untitled2.dir/turnLeft.c.obj"
+  "C:/Users/14027/Desktop/RobotShell/turnRight.c" "C:/Users/14027/Desktop/RobotShell/cmake-build-debug/CMakeFiles/untitled2.dir/turnRight.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

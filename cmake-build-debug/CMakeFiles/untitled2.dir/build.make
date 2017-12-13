@@ -152,28 +152,28 @@ CMakeFiles/untitled2.dir/goBackward.c.obj.provides: CMakeFiles/untitled2.dir/goB
 CMakeFiles/untitled2.dir/goBackward.c.obj.provides.build: CMakeFiles/untitled2.dir/goBackward.c.obj
 
 
-CMakeFiles/untitled2.dir/goRight.c.obj: CMakeFiles/untitled2.dir/flags.make
-CMakeFiles/untitled2.dir/goRight.c.obj: ../goRight.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\14027\Desktop\RobotShell\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/untitled2.dir/goRight.c.obj"
-	C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\untitled2.dir\goRight.c.obj   -c C:\Users\14027\Desktop\RobotShell\goRight.c
+CMakeFiles/untitled2.dir/turnRight.c.obj: CMakeFiles/untitled2.dir/flags.make
+CMakeFiles/untitled2.dir/turnRight.c.obj: ../turnRight.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\14027\Desktop\RobotShell\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/untitled2.dir/turnRight.c.obj"
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\untitled2.dir\turnRight.c.obj   -c C:\Users\14027\Desktop\RobotShell\turnRight.c
 
-CMakeFiles/untitled2.dir/goRight.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled2.dir/goRight.c.i"
-	C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\14027\Desktop\RobotShell\goRight.c > CMakeFiles\untitled2.dir\goRight.c.i
+CMakeFiles/untitled2.dir/turnRight.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled2.dir/turnRight.c.i"
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\14027\Desktop\RobotShell\turnRight.c > CMakeFiles\untitled2.dir\turnRight.c.i
 
-CMakeFiles/untitled2.dir/goRight.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled2.dir/goRight.c.s"
-	C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\14027\Desktop\RobotShell\goRight.c -o CMakeFiles\untitled2.dir\goRight.c.s
+CMakeFiles/untitled2.dir/turnRight.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled2.dir/turnRight.c.s"
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\14027\Desktop\RobotShell\turnRight.c -o CMakeFiles\untitled2.dir\turnRight.c.s
 
-CMakeFiles/untitled2.dir/goRight.c.obj.requires:
+CMakeFiles/untitled2.dir/turnRight.c.obj.requires:
 
-.PHONY : CMakeFiles/untitled2.dir/goRight.c.obj.requires
+.PHONY : CMakeFiles/untitled2.dir/turnRight.c.obj.requires
 
-CMakeFiles/untitled2.dir/goRight.c.obj.provides: CMakeFiles/untitled2.dir/goRight.c.obj.requires
-	$(MAKE) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/goRight.c.obj.provides.build
-.PHONY : CMakeFiles/untitled2.dir/goRight.c.obj.provides
+CMakeFiles/untitled2.dir/turnRight.c.obj.provides: CMakeFiles/untitled2.dir/turnRight.c.obj.requires
+	$(MAKE) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/turnRight.c.obj.provides.build
+.PHONY : CMakeFiles/untitled2.dir/turnRight.c.obj.provides
 
-CMakeFiles/untitled2.dir/goRight.c.obj.provides.build: CMakeFiles/untitled2.dir/goRight.c.obj
+CMakeFiles/untitled2.dir/turnRight.c.obj.provides.build: CMakeFiles/untitled2.dir/turnRight.c.obj
 
 
 CMakeFiles/untitled2.dir/turnLeft.c.obj: CMakeFiles/untitled2.dir/flags.make
@@ -200,14 +200,39 @@ CMakeFiles/untitled2.dir/turnLeft.c.obj.provides: CMakeFiles/untitled2.dir/turnL
 CMakeFiles/untitled2.dir/turnLeft.c.obj.provides.build: CMakeFiles/untitled2.dir/turnLeft.c.obj
 
 
+CMakeFiles/untitled2.dir/savePin.c.obj: CMakeFiles/untitled2.dir/flags.make
+CMakeFiles/untitled2.dir/savePin.c.obj: ../savePin.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\14027\Desktop\RobotShell\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/untitled2.dir/savePin.c.obj"
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\untitled2.dir\savePin.c.obj   -c C:\Users\14027\Desktop\RobotShell\savePin.c
+
+CMakeFiles/untitled2.dir/savePin.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled2.dir/savePin.c.i"
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\14027\Desktop\RobotShell\savePin.c > CMakeFiles\untitled2.dir\savePin.c.i
+
+CMakeFiles/untitled2.dir/savePin.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled2.dir/savePin.c.s"
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\14027\Desktop\RobotShell\savePin.c -o CMakeFiles\untitled2.dir\savePin.c.s
+
+CMakeFiles/untitled2.dir/savePin.c.obj.requires:
+
+.PHONY : CMakeFiles/untitled2.dir/savePin.c.obj.requires
+
+CMakeFiles/untitled2.dir/savePin.c.obj.provides: CMakeFiles/untitled2.dir/savePin.c.obj.requires
+	$(MAKE) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/savePin.c.obj.provides.build
+.PHONY : CMakeFiles/untitled2.dir/savePin.c.obj.provides
+
+CMakeFiles/untitled2.dir/savePin.c.obj.provides.build: CMakeFiles/untitled2.dir/savePin.c.obj
+
+
 # Object files for target untitled2
 untitled2_OBJECTS = \
 "CMakeFiles/untitled2.dir/main.c.obj" \
 "CMakeFiles/untitled2.dir/setPin.c.obj" \
 "CMakeFiles/untitled2.dir/goForward.c.obj" \
 "CMakeFiles/untitled2.dir/goBackward.c.obj" \
-"CMakeFiles/untitled2.dir/goRight.c.obj" \
-"CMakeFiles/untitled2.dir/turnLeft.c.obj"
+"CMakeFiles/untitled2.dir/turnRight.c.obj" \
+"CMakeFiles/untitled2.dir/turnLeft.c.obj" \
+"CMakeFiles/untitled2.dir/savePin.c.obj"
 
 # External object files for target untitled2
 untitled2_EXTERNAL_OBJECTS =
@@ -216,13 +241,14 @@ untitled2.exe: CMakeFiles/untitled2.dir/main.c.obj
 untitled2.exe: CMakeFiles/untitled2.dir/setPin.c.obj
 untitled2.exe: CMakeFiles/untitled2.dir/goForward.c.obj
 untitled2.exe: CMakeFiles/untitled2.dir/goBackward.c.obj
-untitled2.exe: CMakeFiles/untitled2.dir/goRight.c.obj
+untitled2.exe: CMakeFiles/untitled2.dir/turnRight.c.obj
 untitled2.exe: CMakeFiles/untitled2.dir/turnLeft.c.obj
+untitled2.exe: CMakeFiles/untitled2.dir/savePin.c.obj
 untitled2.exe: CMakeFiles/untitled2.dir/build.make
 untitled2.exe: CMakeFiles/untitled2.dir/linklibs.rsp
 untitled2.exe: CMakeFiles/untitled2.dir/objects1.rsp
 untitled2.exe: CMakeFiles/untitled2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\14027\Desktop\RobotShell\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable untitled2.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\14027\Desktop\RobotShell\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C executable untitled2.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\untitled2.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -234,8 +260,9 @@ CMakeFiles/untitled2.dir/requires: CMakeFiles/untitled2.dir/main.c.obj.requires
 CMakeFiles/untitled2.dir/requires: CMakeFiles/untitled2.dir/setPin.c.obj.requires
 CMakeFiles/untitled2.dir/requires: CMakeFiles/untitled2.dir/goForward.c.obj.requires
 CMakeFiles/untitled2.dir/requires: CMakeFiles/untitled2.dir/goBackward.c.obj.requires
-CMakeFiles/untitled2.dir/requires: CMakeFiles/untitled2.dir/goRight.c.obj.requires
+CMakeFiles/untitled2.dir/requires: CMakeFiles/untitled2.dir/turnRight.c.obj.requires
 CMakeFiles/untitled2.dir/requires: CMakeFiles/untitled2.dir/turnLeft.c.obj.requires
+CMakeFiles/untitled2.dir/requires: CMakeFiles/untitled2.dir/savePin.c.obj.requires
 
 .PHONY : CMakeFiles/untitled2.dir/requires
 

@@ -176,33 +176,6 @@ goForward.c.s:
 	$(MAKE) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/goForward.c.s
 .PHONY : goForward.c.s
 
-goRight.obj: goRight.c.obj
-
-.PHONY : goRight.obj
-
-# target to build an object file
-goRight.c.obj:
-	$(MAKE) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/goRight.c.obj
-.PHONY : goRight.c.obj
-
-goRight.i: goRight.c.i
-
-.PHONY : goRight.i
-
-# target to preprocess a source file
-goRight.c.i:
-	$(MAKE) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/goRight.c.i
-.PHONY : goRight.c.i
-
-goRight.s: goRight.c.s
-
-.PHONY : goRight.s
-
-# target to generate assembly for a file
-goRight.c.s:
-	$(MAKE) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/goRight.c.s
-.PHONY : goRight.c.s
-
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -229,6 +202,33 @@ main.s: main.c.s
 main.c.s:
 	$(MAKE) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/main.c.s
 .PHONY : main.c.s
+
+savePin.obj: savePin.c.obj
+
+.PHONY : savePin.obj
+
+# target to build an object file
+savePin.c.obj:
+	$(MAKE) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/savePin.c.obj
+.PHONY : savePin.c.obj
+
+savePin.i: savePin.c.i
+
+.PHONY : savePin.i
+
+# target to preprocess a source file
+savePin.c.i:
+	$(MAKE) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/savePin.c.i
+.PHONY : savePin.c.i
+
+savePin.s: savePin.c.s
+
+.PHONY : savePin.s
+
+# target to generate assembly for a file
+savePin.c.s:
+	$(MAKE) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/savePin.c.s
+.PHONY : savePin.c.s
 
 setPin.obj: setPin.c.obj
 
@@ -284,6 +284,33 @@ turnLeft.c.s:
 	$(MAKE) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/turnLeft.c.s
 .PHONY : turnLeft.c.s
 
+turnRight.obj: turnRight.c.obj
+
+.PHONY : turnRight.obj
+
+# target to build an object file
+turnRight.c.obj:
+	$(MAKE) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/turnRight.c.obj
+.PHONY : turnRight.c.obj
+
+turnRight.i: turnRight.c.i
+
+.PHONY : turnRight.i
+
+# target to preprocess a source file
+turnRight.c.i:
+	$(MAKE) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/turnRight.c.i
+.PHONY : turnRight.c.i
+
+turnRight.s: turnRight.c.s
+
+.PHONY : turnRight.s
+
+# target to generate assembly for a file
+turnRight.c.s:
+	$(MAKE) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/turnRight.c.s
+.PHONY : turnRight.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -299,18 +326,21 @@ help:
 	@echo ... goForward.obj
 	@echo ... goForward.i
 	@echo ... goForward.s
-	@echo ... goRight.obj
-	@echo ... goRight.i
-	@echo ... goRight.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... savePin.obj
+	@echo ... savePin.i
+	@echo ... savePin.s
 	@echo ... setPin.obj
 	@echo ... setPin.i
 	@echo ... setPin.s
 	@echo ... turnLeft.obj
 	@echo ... turnLeft.i
 	@echo ... turnLeft.s
+	@echo ... turnRight.obj
+	@echo ... turnRight.i
+	@echo ... turnRight.s
 .PHONY : help
 
 
