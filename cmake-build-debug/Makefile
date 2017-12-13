@@ -122,32 +122,32 @@ untitled2/fast:
 	$(MAKE) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/build
 .PHONY : untitled2/fast
 
-go.obj: go.c.obj
+goBackward.obj: goBackward.c.obj
 
-.PHONY : go.obj
+.PHONY : goBackward.obj
 
 # target to build an object file
-go.c.obj:
-	$(MAKE) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/go.c.obj
-.PHONY : go.c.obj
+goBackward.c.obj:
+	$(MAKE) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/goBackward.c.obj
+.PHONY : goBackward.c.obj
 
-go.i: go.c.i
+goBackward.i: goBackward.c.i
 
-.PHONY : go.i
+.PHONY : goBackward.i
 
 # target to preprocess a source file
-go.c.i:
-	$(MAKE) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/go.c.i
-.PHONY : go.c.i
+goBackward.c.i:
+	$(MAKE) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/goBackward.c.i
+.PHONY : goBackward.c.i
 
-go.s: go.c.s
+goBackward.s: goBackward.c.s
 
-.PHONY : go.s
+.PHONY : goBackward.s
 
 # target to generate assembly for a file
-go.c.s:
-	$(MAKE) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/go.c.s
-.PHONY : go.c.s
+goBackward.c.s:
+	$(MAKE) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/goBackward.c.s
+.PHONY : goBackward.c.s
 
 goForward.obj: goForward.c.obj
 
@@ -175,6 +175,33 @@ goForward.s: goForward.c.s
 goForward.c.s:
 	$(MAKE) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/goForward.c.s
 .PHONY : goForward.c.s
+
+goRight.obj: goRight.c.obj
+
+.PHONY : goRight.obj
+
+# target to build an object file
+goRight.c.obj:
+	$(MAKE) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/goRight.c.obj
+.PHONY : goRight.c.obj
+
+goRight.i: goRight.c.i
+
+.PHONY : goRight.i
+
+# target to preprocess a source file
+goRight.c.i:
+	$(MAKE) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/goRight.c.i
+.PHONY : goRight.c.i
+
+goRight.s: goRight.c.s
+
+.PHONY : goRight.s
+
+# target to generate assembly for a file
+goRight.c.s:
+	$(MAKE) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/goRight.c.s
+.PHONY : goRight.c.s
 
 main.obj: main.c.obj
 
@@ -230,6 +257,33 @@ setPin.c.s:
 	$(MAKE) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/setPin.c.s
 .PHONY : setPin.c.s
 
+turnLeft.obj: turnLeft.c.obj
+
+.PHONY : turnLeft.obj
+
+# target to build an object file
+turnLeft.c.obj:
+	$(MAKE) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/turnLeft.c.obj
+.PHONY : turnLeft.c.obj
+
+turnLeft.i: turnLeft.c.i
+
+.PHONY : turnLeft.i
+
+# target to preprocess a source file
+turnLeft.c.i:
+	$(MAKE) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/turnLeft.c.i
+.PHONY : turnLeft.c.i
+
+turnLeft.s: turnLeft.c.s
+
+.PHONY : turnLeft.s
+
+# target to generate assembly for a file
+turnLeft.c.s:
+	$(MAKE) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/turnLeft.c.s
+.PHONY : turnLeft.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -239,18 +293,24 @@ help:
 	@echo ... untitled2
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... go.obj
-	@echo ... go.i
-	@echo ... go.s
+	@echo ... goBackward.obj
+	@echo ... goBackward.i
+	@echo ... goBackward.s
 	@echo ... goForward.obj
 	@echo ... goForward.i
 	@echo ... goForward.s
+	@echo ... goRight.obj
+	@echo ... goRight.i
+	@echo ... goRight.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
 	@echo ... setPin.obj
 	@echo ... setPin.i
 	@echo ... setPin.s
+	@echo ... turnLeft.obj
+	@echo ... turnLeft.i
+	@echo ... turnLeft.s
 .PHONY : help
 
 
