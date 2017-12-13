@@ -13,7 +13,7 @@ int main()
     while (1)
     {
 
-        char commandes[3][50] = {"go", "gps", ""};
+        char commandes[3][50] = {"go", "gps", "setpin", ""};
         char commande[50];
         int i;
         bool commandExist = 0;
@@ -55,6 +55,14 @@ int main()
                         return 0;
                     }
 ;
+                }
+                else if (strcmp(commande, "setpin") == 0)
+                {
+                    if (execv("./setPin", NULL) == -1) {
+                        perror("execv");
+                        return 0;
+                    }
+                    ;
                 }
             }
             else
