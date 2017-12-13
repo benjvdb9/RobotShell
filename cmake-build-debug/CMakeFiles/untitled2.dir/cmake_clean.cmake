@@ -1,8 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/untitled2.dir/main.c.obj"
-  "CMakeFiles/untitled2.dir/go.c.obj"
   "CMakeFiles/untitled2.dir/setPin.c.obj"
   "CMakeFiles/untitled2.dir/goForward.c.obj"
+  "CMakeFiles/untitled2.dir/goBackward.c.obj"
+  "CMakeFiles/untitled2.dir/goRight.c.obj"
+  "CMakeFiles/untitled2.dir/turnLeft.c.obj"
   "untitled2.pdb"
   "untitled2.exe"
   "untitled2.exe.manifest"

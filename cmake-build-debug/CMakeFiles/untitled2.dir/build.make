@@ -80,33 +80,9 @@ CMakeFiles/untitled2.dir/main.c.obj.provides: CMakeFiles/untitled2.dir/main.c.ob
 CMakeFiles/untitled2.dir/main.c.obj.provides.build: CMakeFiles/untitled2.dir/main.c.obj
 
 
-CMakeFiles/untitled2.dir/go.c.obj: CMakeFiles/untitled2.dir/flags.make
-CMakeFiles/untitled2.dir/go.c.obj: ../go.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\14027\Desktop\RobotShell\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/untitled2.dir/go.c.obj"
-	C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\untitled2.dir\go.c.obj   -c C:\Users\14027\Desktop\RobotShell\go.c
-
-CMakeFiles/untitled2.dir/go.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled2.dir/go.c.i"
-	C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\14027\Desktop\RobotShell\go.c > CMakeFiles\untitled2.dir\go.c.i
-
-CMakeFiles/untitled2.dir/go.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled2.dir/go.c.s"
-	C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\14027\Desktop\RobotShell\go.c -o CMakeFiles\untitled2.dir\go.c.s
-
-CMakeFiles/untitled2.dir/go.c.obj.requires:
-
-.PHONY : CMakeFiles/untitled2.dir/go.c.obj.requires
-
-CMakeFiles/untitled2.dir/go.c.obj.provides: CMakeFiles/untitled2.dir/go.c.obj.requires
-	$(MAKE) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/go.c.obj.provides.build
-.PHONY : CMakeFiles/untitled2.dir/go.c.obj.provides
-
-CMakeFiles/untitled2.dir/go.c.obj.provides.build: CMakeFiles/untitled2.dir/go.c.obj
-
-
 CMakeFiles/untitled2.dir/setPin.c.obj: CMakeFiles/untitled2.dir/flags.make
 CMakeFiles/untitled2.dir/setPin.c.obj: ../setPin.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\14027\Desktop\RobotShell\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/untitled2.dir/setPin.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\14027\Desktop\RobotShell\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/untitled2.dir/setPin.c.obj"
 	C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\untitled2.dir\setPin.c.obj   -c C:\Users\14027\Desktop\RobotShell\setPin.c
 
 CMakeFiles/untitled2.dir/setPin.c.i: cmake_force
@@ -130,7 +106,7 @@ CMakeFiles/untitled2.dir/setPin.c.obj.provides.build: CMakeFiles/untitled2.dir/s
 
 CMakeFiles/untitled2.dir/goForward.c.obj: CMakeFiles/untitled2.dir/flags.make
 CMakeFiles/untitled2.dir/goForward.c.obj: ../goForward.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\14027\Desktop\RobotShell\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/untitled2.dir/goForward.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\14027\Desktop\RobotShell\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/untitled2.dir/goForward.c.obj"
 	C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\untitled2.dir\goForward.c.obj   -c C:\Users\14027\Desktop\RobotShell\goForward.c
 
 CMakeFiles/untitled2.dir/goForward.c.i: cmake_force
@@ -152,25 +128,101 @@ CMakeFiles/untitled2.dir/goForward.c.obj.provides: CMakeFiles/untitled2.dir/goFo
 CMakeFiles/untitled2.dir/goForward.c.obj.provides.build: CMakeFiles/untitled2.dir/goForward.c.obj
 
 
+CMakeFiles/untitled2.dir/goBackward.c.obj: CMakeFiles/untitled2.dir/flags.make
+CMakeFiles/untitled2.dir/goBackward.c.obj: ../goBackward.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\14027\Desktop\RobotShell\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/untitled2.dir/goBackward.c.obj"
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\untitled2.dir\goBackward.c.obj   -c C:\Users\14027\Desktop\RobotShell\goBackward.c
+
+CMakeFiles/untitled2.dir/goBackward.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled2.dir/goBackward.c.i"
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\14027\Desktop\RobotShell\goBackward.c > CMakeFiles\untitled2.dir\goBackward.c.i
+
+CMakeFiles/untitled2.dir/goBackward.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled2.dir/goBackward.c.s"
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\14027\Desktop\RobotShell\goBackward.c -o CMakeFiles\untitled2.dir\goBackward.c.s
+
+CMakeFiles/untitled2.dir/goBackward.c.obj.requires:
+
+.PHONY : CMakeFiles/untitled2.dir/goBackward.c.obj.requires
+
+CMakeFiles/untitled2.dir/goBackward.c.obj.provides: CMakeFiles/untitled2.dir/goBackward.c.obj.requires
+	$(MAKE) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/goBackward.c.obj.provides.build
+.PHONY : CMakeFiles/untitled2.dir/goBackward.c.obj.provides
+
+CMakeFiles/untitled2.dir/goBackward.c.obj.provides.build: CMakeFiles/untitled2.dir/goBackward.c.obj
+
+
+CMakeFiles/untitled2.dir/goRight.c.obj: CMakeFiles/untitled2.dir/flags.make
+CMakeFiles/untitled2.dir/goRight.c.obj: ../goRight.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\14027\Desktop\RobotShell\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/untitled2.dir/goRight.c.obj"
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\untitled2.dir\goRight.c.obj   -c C:\Users\14027\Desktop\RobotShell\goRight.c
+
+CMakeFiles/untitled2.dir/goRight.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled2.dir/goRight.c.i"
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\14027\Desktop\RobotShell\goRight.c > CMakeFiles\untitled2.dir\goRight.c.i
+
+CMakeFiles/untitled2.dir/goRight.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled2.dir/goRight.c.s"
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\14027\Desktop\RobotShell\goRight.c -o CMakeFiles\untitled2.dir\goRight.c.s
+
+CMakeFiles/untitled2.dir/goRight.c.obj.requires:
+
+.PHONY : CMakeFiles/untitled2.dir/goRight.c.obj.requires
+
+CMakeFiles/untitled2.dir/goRight.c.obj.provides: CMakeFiles/untitled2.dir/goRight.c.obj.requires
+	$(MAKE) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/goRight.c.obj.provides.build
+.PHONY : CMakeFiles/untitled2.dir/goRight.c.obj.provides
+
+CMakeFiles/untitled2.dir/goRight.c.obj.provides.build: CMakeFiles/untitled2.dir/goRight.c.obj
+
+
+CMakeFiles/untitled2.dir/turnLeft.c.obj: CMakeFiles/untitled2.dir/flags.make
+CMakeFiles/untitled2.dir/turnLeft.c.obj: ../turnLeft.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\14027\Desktop\RobotShell\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/untitled2.dir/turnLeft.c.obj"
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\untitled2.dir\turnLeft.c.obj   -c C:\Users\14027\Desktop\RobotShell\turnLeft.c
+
+CMakeFiles/untitled2.dir/turnLeft.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled2.dir/turnLeft.c.i"
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\14027\Desktop\RobotShell\turnLeft.c > CMakeFiles\untitled2.dir\turnLeft.c.i
+
+CMakeFiles/untitled2.dir/turnLeft.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled2.dir/turnLeft.c.s"
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\14027\Desktop\RobotShell\turnLeft.c -o CMakeFiles\untitled2.dir\turnLeft.c.s
+
+CMakeFiles/untitled2.dir/turnLeft.c.obj.requires:
+
+.PHONY : CMakeFiles/untitled2.dir/turnLeft.c.obj.requires
+
+CMakeFiles/untitled2.dir/turnLeft.c.obj.provides: CMakeFiles/untitled2.dir/turnLeft.c.obj.requires
+	$(MAKE) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/turnLeft.c.obj.provides.build
+.PHONY : CMakeFiles/untitled2.dir/turnLeft.c.obj.provides
+
+CMakeFiles/untitled2.dir/turnLeft.c.obj.provides.build: CMakeFiles/untitled2.dir/turnLeft.c.obj
+
+
 # Object files for target untitled2
 untitled2_OBJECTS = \
 "CMakeFiles/untitled2.dir/main.c.obj" \
-"CMakeFiles/untitled2.dir/go.c.obj" \
 "CMakeFiles/untitled2.dir/setPin.c.obj" \
-"CMakeFiles/untitled2.dir/goForward.c.obj"
+"CMakeFiles/untitled2.dir/goForward.c.obj" \
+"CMakeFiles/untitled2.dir/goBackward.c.obj" \
+"CMakeFiles/untitled2.dir/goRight.c.obj" \
+"CMakeFiles/untitled2.dir/turnLeft.c.obj"
 
 # External object files for target untitled2
 untitled2_EXTERNAL_OBJECTS =
 
 untitled2.exe: CMakeFiles/untitled2.dir/main.c.obj
-untitled2.exe: CMakeFiles/untitled2.dir/go.c.obj
 untitled2.exe: CMakeFiles/untitled2.dir/setPin.c.obj
 untitled2.exe: CMakeFiles/untitled2.dir/goForward.c.obj
+untitled2.exe: CMakeFiles/untitled2.dir/goBackward.c.obj
+untitled2.exe: CMakeFiles/untitled2.dir/goRight.c.obj
+untitled2.exe: CMakeFiles/untitled2.dir/turnLeft.c.obj
 untitled2.exe: CMakeFiles/untitled2.dir/build.make
 untitled2.exe: CMakeFiles/untitled2.dir/linklibs.rsp
 untitled2.exe: CMakeFiles/untitled2.dir/objects1.rsp
 untitled2.exe: CMakeFiles/untitled2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\14027\Desktop\RobotShell\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable untitled2.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\14027\Desktop\RobotShell\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable untitled2.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\untitled2.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -179,9 +231,11 @@ CMakeFiles/untitled2.dir/build: untitled2.exe
 .PHONY : CMakeFiles/untitled2.dir/build
 
 CMakeFiles/untitled2.dir/requires: CMakeFiles/untitled2.dir/main.c.obj.requires
-CMakeFiles/untitled2.dir/requires: CMakeFiles/untitled2.dir/go.c.obj.requires
 CMakeFiles/untitled2.dir/requires: CMakeFiles/untitled2.dir/setPin.c.obj.requires
 CMakeFiles/untitled2.dir/requires: CMakeFiles/untitled2.dir/goForward.c.obj.requires
+CMakeFiles/untitled2.dir/requires: CMakeFiles/untitled2.dir/goBackward.c.obj.requires
+CMakeFiles/untitled2.dir/requires: CMakeFiles/untitled2.dir/goRight.c.obj.requires
+CMakeFiles/untitled2.dir/requires: CMakeFiles/untitled2.dir/turnLeft.c.obj.requires
 
 .PHONY : CMakeFiles/untitled2.dir/requires
 

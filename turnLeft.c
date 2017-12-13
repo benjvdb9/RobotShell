@@ -4,6 +4,7 @@
 
 int main()
 {
+    
     char* pinToHigh[2] = {"11","12"};
     char* pinToLow[2] = {"13","14"};
     int i;
@@ -22,3 +23,4 @@ int main()
 
     return 0;
 }
+

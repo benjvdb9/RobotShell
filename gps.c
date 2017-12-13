@@ -1,8 +1,9 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<unistd.h>
+#include <string.h>
 #include<fcntl.h>
-#include <iostream>
+#include <stdbool.h>
 
 #define Taille 10000
 
@@ -10,7 +11,9 @@ int main()
 {
     int fd;
     char buffer[Taille];
-    
+    ssize_t result;
+    printf("test");
+
     fd = open("/dev/ttyS0", O_RDONLY);
     
     if(fd == -1)
@@ -19,10 +22,9 @@ int main()
         return (EXIT_FAILURE);
     }
 
-    int i = 0;
-    while(i < 200)
+    while(1)
     {
-        result = read(fd, buffer, sizeof(buffer) - 1);
+        result = read(fd, buffer, sizeof(buffer));
         
         // read fail
         if(result == -1)
@@ -35,7 +37,6 @@ int main()
         if(!result)
         {
             printf("no data\n");
-            i++;
         }
         
         // data received
@@ -45,12 +46,7 @@ int main()
             printf("string : %s number : %d\n", buffer, result);
         }
     }
-    close(fd1);
-    close(fd2);
+    close(fd);
     return (EXIT_SUCCESS);
 }
 
-
-
-
-tcsetattr(fd, TCSANOW, &storedOptions);

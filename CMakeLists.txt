@@ -3,5 +3,5 @@ project(untitled2)
 
 set(CMAKE_C_STANDARD 99)
 
-set(SOURCE_FILES main.c go.c setPin.c goForward.c setPin.h)
+set(SOURCE_FILES main.c setPin.c goForward.c setPin.h goBackward.c turnRight.c turnLeft.c)
 add_executable(untitled2 ${SOURCE_FILES})

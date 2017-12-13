@@ -80,10 +80,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/14027/Desktop/RobotShell/go.c">
+		<Unit filename="C:/Users/14027/Desktop/RobotShell/goBackward.c">
 			<Option target="untitled2"/>
 		</Unit>
 		<Unit filename="C:/Users/14027/Desktop/RobotShell/goForward.c">
+			<Option target="untitled2"/>
+		</Unit>
+		<Unit filename="C:/Users/14027/Desktop/RobotShell/goRight.c">
 			<Option target="untitled2"/>
 		</Unit>
 		<Unit filename="C:/Users/14027/Desktop/RobotShell/main.c">
@@ -93,6 +96,9 @@
 			<Option target="untitled2"/>
 		</Unit>
 		<Unit filename="C:/Users/14027/Desktop/RobotShell/setPin.h">
+			<Option target="untitled2"/>
+		</Unit>
+		<Unit filename="C:/Users/14027/Desktop/RobotShell/turnLeft.c">
 			<Option target="untitled2"/>
 		</Unit>
 		<Unit filename="C:/Users/14027/Desktop/RobotShell/CMakeLists.txt">
