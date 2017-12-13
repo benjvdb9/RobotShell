@@ -13,7 +13,7 @@ int main()
     while (1)
     {
 
-        char commandes[3][50] = {"go", "gps", "setpin", ""};
+        char commandes[3][50] = {"goForward", "goBackward", "TurnLeft", "TurnRight", "gps", "setpin", ""};
         char commande[50];
         int i;
         bool commandExist = 0;
@@ -39,9 +39,9 @@ int main()
                 char *const argv[] = {};
                 printf("hello");
                 fflush(stdout);
-                if (strcmp(commande,"go") == 0)
+                if (strcmp(commande,"goForward") == 0)
                 {
-                    if (execv("./go", NULL) == -1)
+                    if (execv("./goForward", NULL) == -1)
                     {
                         perror("execv");
                         return 0;
