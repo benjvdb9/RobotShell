@@ -8,15 +8,14 @@ int main()
     char* pinToLow[2] = {};
 
     FILE* file = NULL;
-    char line[2] = "";
+    char line[50] = "";
     file = fopen("PinData.txt", "r");
-
     if (file != NULL)
     {
-        int i = 0;
-        while (fgets(line, 2, file) != NULL) // On lit le fichier tant qu'on ne reçoit pas d'erreur (NULL)
+       int i = 0;
+       while (fgets(line, 50, file) != NULL) // On lit le fichier tant qu'on ne reçoit pas d'erreur (NULL)
         {
-            switch (i)
+	   switch (i)
             {
                 case 0 :
                     pinToHigh[0] = line;
@@ -36,16 +35,15 @@ int main()
 
             i++;
         }
-
         fclose(file);
     }
+    else
     {
-        printf("Impossible d'ouvrir le fichier test.txt");
+        printf("Impossible d'ouvrir le fichier DataPin.txt");
     }
 
 
     int i;
-
     for (i = 0 ; i < 2 ; i++)
     {
         setPin(pinToHigh[i],"1");
@@ -55,6 +53,8 @@ int main()
     int key = getchar();
     while(key!=115)
     {
+	printf("4");
+	fflush(stdout);
         key = getchar();
     }
 

@@ -5,13 +5,19 @@
 
 bool writeInFile(char* file, char* content);
 
-
 bool setPin(char* pinNumber, char* value)
 {
-    if(writeInFile("/sys/class/gpio/export", pinNumber))
+    printf("0");
+    fflush(stdout);
+    if(writeInFile("/sys/class/gpio/export", "1"))
     {
-        if(writeInFile(strcat(strcat("/sys/class/gpio/gpio",pinNumber),"/direction"), "out"))
+	char* buffer[100];
+        
+	
+	if(writeInFile(strcat(buffer,"/direction"), "out"))
         {
+	    printf("2");
+	    fflush(stdout);
             writeInFile(strcat(strcat("/sys/class/gpio/gpio",pinNumber),"/value"), value);
         }
 

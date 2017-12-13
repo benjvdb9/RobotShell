@@ -13,6 +13,7 @@ int main()
     char buffer[Taille];
     ssize_t result;
     printf("test");
+    fflush(stdout);
 
     fd = open("/dev/ttyS0", O_RDONLY);
     
