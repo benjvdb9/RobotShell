@@ -13,11 +13,11 @@ int main()
     while (1)
     {
 
-        char commandes[3][50] = {"goForward", "goBackward", "TurnLeft", "TurnRight", "gps", "setpin", ""};
+        char commandes[7][50] = {"goForward", "goBackward", "TurnLeft", "TurnRight", "gps", "setpin", ""};
         char commande[50];
         int i;
         bool commandExist = 0;
-        printf(">");
+	printf(">");
         scanf("%s",commande);
         for (i = 0 ; i < 3 ; i++)
         {
