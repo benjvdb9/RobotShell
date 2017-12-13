@@ -88,3 +88,4 @@ bool writeInFile(char* file, char* content)
     }
 }
 
+
