@@ -12,8 +12,8 @@ int main()
 {
     while (1)
     {
-
-        char commandes[7][50] = {"goForward", "goBackward", "TurnLeft", "TurnRight", "gps", "setpin", " "};
+        
+        char commandes[7][50] = {"goForward", "goBackward", "TurnLeft", "TurnRight", "gps", "setpin", ""};
         char commande[50];
         int i;
         bool commandExist = 0;
@@ -26,7 +26,7 @@ int main()
                 commandExist = 1 ;
             }
         }
-
+        
         if (commandExist)
         {
             pid_t pid = fork();
@@ -37,8 +37,8 @@ int main()
             else if (pid == 0)
             {
                 char *const argv[] = {};
-                // printf("hello");
-                // fflush(stdout);
+                //printf("hello");
+                //fflush(stdout);
                 if (strcmp(commande,"goForward") == 0)
                 {
                     if (execv("./goForward", NULL) == -1)
@@ -46,7 +46,7 @@ int main()
                         perror("execv");
                         return 0;
                     }
-
+                    
                 }
                 else if (strcmp(commande,"goBackward") == 0)
                 {
@@ -91,16 +91,14 @@ int main()
                     }
                     ;
                 }
-
             }
             else
             {
-                printf("Besoin d'aide, tapez '-help' \n");
                 wait(NULL);
                 return 0;
             }
         }
-
-
+        
+        
     }
 }
