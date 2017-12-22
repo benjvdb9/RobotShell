@@ -40,7 +40,8 @@ int main()
         fclose(file);
     }
     {
-        printf("Impossible d'ouvrir le fichier test.txt");
+        printf("Impossible d'ouvrir le fichier pinData.txt");
+        return -1;
     }
 
     int i;
