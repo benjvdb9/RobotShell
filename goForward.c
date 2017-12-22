@@ -40,6 +40,7 @@ int main()
     else
     {
         printf("Impossible d'ouvrir le fichier DataPin.txt");
+	return -1;
     }
 
 
